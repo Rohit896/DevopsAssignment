@@ -8,7 +8,7 @@ public class Calculator {
 		System.out.println("6 * 3 = " + multiply(6,3));
 		System.out.println("6 / 3 = " + divide(6,3));
 	}
-
+//  I'm writing this comment here and i will push it to github repository. Jenkins should automatically trigger the build when it sees any changes in the github repository.
 	public static int add(int a, int b) {
 		return a + b;
 	}
